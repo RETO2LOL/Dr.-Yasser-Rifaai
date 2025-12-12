@@ -21,6 +21,15 @@ body{
   direction:rtl;
 }
 
+.logo img{
+  border: solid var(--primary) 3px;
+   width: 30vmin;           /* or any width unit */
+  aspect-ratio: 1 / 1;    /* keeps it square */
+  border-radius: 50%;
+  background: rebeccapurple;
+  
+}
+
 /* Header */
 .header{
   background:linear-gradient(90deg,var(--primary),var(--accent));
